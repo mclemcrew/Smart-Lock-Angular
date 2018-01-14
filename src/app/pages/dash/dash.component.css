@@ -1,0 +1,15 @@
+button {
+    margin: 8% auto 0 auto;
+    height: 400px;
+    width: 400px;
+    font-size: 40px;
+    background-color: rgb(21, 187, 6);
+}
+
+.btn-floating :hover{
+    margin: 8% auto 0 auto;
+    height: 400px;
+    width: 400px;
+    font-size: 40px;
+    background-color: rgb(14, 131, 4);
+}

@@ -1,0 +1,31 @@
+<div class="container">
+  <div class="center-align" style="margin-top:50px">
+      <mz-input-container>
+          <input mz-input
+          style="color:black"
+            [label]="'Username'"
+            [validate]="true"
+            [disabled]="true"
+            [dataError]="'Username is invalid'"
+            [dataSuccess]="'Username is valid'"
+            id="username-input"
+            placeholder={{username}}
+            length="150"
+            type="text">
+        </mz-input-container>
+        <mz-input-container>
+            <input mz-input
+            [label]="'Password'"
+            [validate]="true"
+            [dataError]="'Password is invalid'"
+            [dataSuccess]="'Password is valid'"
+            id="password-input"
+            placeholder="Enter your password"
+            length="150"
+            type="password">
+        </mz-input-container>
+        <button mz-button (click)="saveChanges()">
+            Save Changes
+          </button>
+  </div>
+</div>

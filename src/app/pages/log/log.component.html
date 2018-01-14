@@ -1,0 +1,17 @@
+<div class="container">
+<div class="center-align">
+<mz-card
+*ngFor="let data of dataStream"
+  class="blue-grey darken-1 white-text"
+  [hoverable]="true">
+  <mz-card-title>
+    Admin
+  </mz-card-title>
+  <mz-card-content>
+    Date: {{data.Date}}
+    <br />
+    Status: {{data.Status}}
+  </mz-card-content>
+</mz-card>
+</div>
+</div>
